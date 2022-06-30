@@ -1,0 +1,45 @@
+@media screen and (max-width:768px) {
+    .main-header {
+        height: auto;
+    }
+}
+
+
+/* end mobile scope */
+
+@media screen and (min-width:768px) {
+    .main-header {
+        height: auto;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #navbaropensea ul>li {
+        border-bottom: 1px solid white;
+        background-color: #ffffff2b;
+        box-shadow: 0 0 10px 0px #bebebe61;
+        padding: 0 10px;
+        position: relative;
+        z-index: 9999;
+        transition: all .4s;
+    }
+    #navbaropensea ul>li:hover {
+        background-color: #f1f1f137;
+        box-shadow: 0 0 10px 0px #b8b8b861;
+        color: black;
+    }
+}
+
+
+/* end tablet scope` */
+
+@media screen and (min-width: 992px) {
+    #navbarNav li {
+        border-bottom: none;
+    }
+}
+
+
+/* end desktop scope` */
+
+@media screen and (min-width:1200px) {}
